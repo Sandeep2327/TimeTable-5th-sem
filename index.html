@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+        th{
+            background: gray;
+        }
+        .time_table{
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Project 1 = Time Table View -->
+    <table border cellpadding="10px">
+        <!-- Table Head -->
+        <thead>
+            <tr>
+                <th class="time_table" colspan="8">Time Table</th>
+            </tr>
+            <tr>
+                <th>Lecture</th>
+                <th>I <br> 08:50 - 10: 00</th>
+                <th>II <br> 10:00 - 10: 55</th>
+                <th>III <br> 10: 55 - 11: 50</th>
+                <th>IV <br> 11: 50 - 12: 45</th>
+                <th>Lunch <br>12:45 - 01: 40</th> 
+                <th>V <br> 01: 40 - 02: 35</th>
+                <th>V <br> 02: 35 - 03: 30</th>
+            </tr>
+        </thead>
+        <!-- Table Body -->
+        <tbody>
+           <tr>
+            <td>Monday</td>
+            <td style="background:pink">OS</td>
+            <td style="background: lightblue">CD</td>
+            <td colspan="2">CRT <br> (Technical)</td>
+            <td rowspan="7">Lunch</td>
+            <td style="background: lightskyblue">ITC</td>
+            <td style="background: lightcoral">AA</td>
+           </tr>
+           <tr>
+            <td>Tuesday</td>
+            <td style="background: brown">CG</td>
+            <td style="background: lightblue">CD</td>
+            <td colspan="2">CRT <br> (Aptitude)</td>
+            <td style="background: lightcoral">AA</td>
+            <td style="background:pink">OS</td>
+           </tr>
+           <tr>
+            <td>Wednesday</td>
+            <td colspan="2">CRT <br> (Aptitude)</td>
+            <td style="background: brown">CG</td>
+            <td style="background: burlywood">WC</td>
+            <td colspan="2">CRT <br> (Technical)</td>
+           </tr>
+           <tr>
+            <td>Thursday</td>
+            <td style="background: burlywood">WC</td>
+            <td style="background: lightcoral">AA</td>
+            <td colspan="2">CRT <br> (Technical)</td>
+            <td>AA LAB(C1) CL-16 <br> JAVA LAB (C2) CL-15</td>
+            <td>CG & MT LAB(C2) CL-17 <br> AA LAB (C1) CL-15</td>
+           </tr>
+           <tr>
+            <td>Friday</td>
+            <td style="background: burlywood">WC</td>
+            <td style="background: lightcoral">AA</td>
+            <td colspan="2">CRT <br> (Technical)</td>
+            <td>CG & MT LAB(C2) CL-17 <br> CD LAB (C2) CL-16</td>
+            <td>CD LAB(C2) CL-16 <br> CG & MT LAB(C2) CL-17 </td>
+           </tr>
+           <tr>
+            <td>Saturday</td>
+            <td style="background: burlywood">WC</td>
+            <td style="background: brown">CG</td>
+            <td style="background: lightskyblue">ITC</td>
+            <td style="background: lightblue">CD</td>
+            <td style="background: lightcoral">AA</td>
+            <td style="background:pink">OS</td>
+           </tr>
+        </tbody>
+    </table>
+</body>
+</html>
